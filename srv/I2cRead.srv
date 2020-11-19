@@ -1,0 +1,7 @@
+uint8 slave
+uint8 reg
+uint8 length
+
+---
+bool ok
+uint8[] data
