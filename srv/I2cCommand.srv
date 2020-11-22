@@ -1,0 +1,9 @@
+uint8 slave
+uint8 reg
+uint8 length
+bool write
+uint8[] data_to_send
+
+---
+bool ok
+uint8[] data_received

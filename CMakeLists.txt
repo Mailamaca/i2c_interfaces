@@ -16,6 +16,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "srv/I2cCommand.srv"
   "srv/I2cRead.srv"
   "srv/I2cWrite.srv"
   DEPENDENCIES
